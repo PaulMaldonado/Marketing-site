@@ -1,0 +1,150 @@
+/* Estilos generales del body */
+body {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 300;
+    background-color: var(--bg-primary);
+
+}
+
+/* Variables para los estilos */
+:root {
+    --bg-primary: #FFFFFF;
+    --bg-links: #F7941C;
+    --text-bold: #222529;
+    --icon-digital:#1B2A4E;
+}
+
+/* Estilos para los títulos */
+.title-digital {
+    color: var(--bg-links);
+}
+
+/* Estilos para la navegación */
+.bg-light {
+    background-color: var(--bg-primary) !important;
+}
+
+.nav-link {
+    font-weight: 600 !important;
+}
+
+.nav-link:hover {
+    color: var(--bg-links) !important;
+}
+
+/* Estilos de botones */
+.btn {
+    border: 0;
+}
+
+.btn-primary {
+    background: rgb(245,175,25);
+    background: linear-gradient(90deg, rgba(245,175,25,1) 39%, rgba(247,148,28,1) 79%);
+    border-radius: 50px;
+    padding: 9px 25px;
+    text-transform: uppercase;
+}
+
+.btn-light {
+    background-color: transparent !important;
+    border-radius: 50px;
+    padding: 9px 25px;
+    text-transform: uppercase;
+}
+
+.ion-md-play {
+    color: #F69F1B !important;
+}
+
+/* Estilos para sección de soluciones */
+.bg-section-solution {
+    background-color: #F9FBFD;
+}
+
+.title-solution {
+    color: var(--bg-links);
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+.subtitle-solution {
+    font-size: 2.5em;
+    color: var(--text-bold) !important;
+    font-weight: bold !important;
+}
+
+/* Estilos de las card */
+.card {
+    background-color: #F9FBFD !important;
+    border: none;
+}
+
+.title-card {
+    color: var(--icon-digital);
+    font-weight: 600;
+}
+
+.subtitle-card {
+    font-size: .9em;
+}
+
+.btn-success {
+    background: rgb(55,59,68);
+    background: linear-gradient(90deg, rgba(55,59,68,1) 39%, rgba(27,42,78,1) 79%);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.btn-black {
+    background: rgb(19,78,94);
+    background: linear-gradient(90deg, rgba(19,78,94,1) 39%, rgba(66,186,150,1) 79%);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.ion-md-megaphone {
+    color: var(--bg-primary) !important;
+}
+
+.title-marketing {
+    color: var(--bg-links);
+    font-weight: 600;
+}
+
+.subtitle-marketing {
+    font-size: .9em;
+}
+
+.btn-secondary {
+    background: rgb(245,175,25);
+    background: linear-gradient(90deg, rgba(245,175,25,1) 39%, rgba(247,148,28,1) 79%);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+/* Estilos de sección strategics */
+.title-strategic {
+    color: var(--bg-links);
+}
+
+.btn-info {
+    background-color: #FFFFFF !important;
+    border-radius: 50px;
+    padding: 9px 25px;
+    text-transform: uppercase;
+}
+
+/* Estilos para seccion de projectos terminados */
+.projects {
+    color: var(--bg-links);
+    font-size: 3.5em;
+    font-weight: 600;
+}
+
+.subtitle-project {
+    color: var(--icon-digital);
+    font-size: 1em;
+}
